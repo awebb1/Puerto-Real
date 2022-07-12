@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Cover Template · Bootstrap v5.0</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/cover/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="cover.css" rel="stylesheet">
+  </head>
+  <body class="d-flex h-100 text-white bg-dark" >
+    
+    <div class="d-flex w-100 h-100  mx-auto flex-column">
+      <header class="p-3 bg-dark">
+          <!-- <h3 class="float-md-start mb-0"><img class="rounded-circle img-fluid" style="height: 3.125em; width:" src="puertologo.jpg" /></h3> -->
+          <div class="d-flex justify-content-center">
+            <nav class="nav nav-masthead  float-md-end">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">Contact</a>
+            </nav>
+          </div>
+      </header>
+
+      <main class="vh-100 container-fluid " >
+        
+        <div id="ContentRow" class="row mx-auto w-100 h-100 align-items-center " >
+          <div id="BackgroundDiv" class="col-md-6 text-center h-md-100" style=" background-repeat: no-repeat; background-size: cover;">
+            <img class="rounded-circle img-fluid shadow-lg d-block mx-auto my-5" style="height: 15rem;" src="puertologo.jpg" />
+          </div>
+          <div class="col-md-6 text-center ">
+            <p class="display-4">A family owned Meixcan Taqueria.</p>
+            <p class="display-5">Homemade. Handmade. <span class="display-5" style="color: #8C7327;">FRESH!</span></p>
+            <p class="display-6">Snow Hill, MD.</p>
+            <p class="lead">
+              <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Online Menu</a>
+
+              <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Location</a>
+            </p>
+          </div>
+          
+        </div>
+      
+      </main>
+      <footer class="my-auto text-center text-white-50 ">
+        <p>Website Created by <a href="https://twitter.com/mdo" class="text-white">John Webb</a>.</p>
+      </footer>
+    </div>
+
+
+    
+  </body>
+</html>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('#BackgroundDiv').css({'background-image': 'url(\'tacos.jpg\')'})
+    $('#ContentRow').hide().fadeIn(1500);
+  })
+
+</script>
